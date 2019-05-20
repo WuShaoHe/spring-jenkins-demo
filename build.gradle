@@ -8,11 +8,14 @@ buildscript {
 subprojects {
     group 'vip.wush'
     apply plugin: 'java'
+    apply plugin: 'application'
 
     // JVM版本号要求
     sourceCompatibility = 1.8
     targetCompatibility = 1.8
 
+    mainClassName = 'vip.wush.server.jenkins.Server'
+    
     repositories {
         mavenLocal()
         maven { url 'http://maven.wush.vip/repository/maven-public/' }
