@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     /**
-     * @api {GET} /hello  demo-hello 测试接口....
+     * @api {GET} /hello  demo-hello 测试接口-测试测试
      * @apiGroup spring-jenkins-demo
      * @apiName HelloController
      * @apiDescription  测试接口
